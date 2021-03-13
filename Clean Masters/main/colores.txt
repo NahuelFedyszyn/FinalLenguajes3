@@ -1,0 +1,5 @@
+NARANJA:
+#e77e21
+
+CELESTE:
+#8fd0d8
