@@ -7,7 +7,7 @@ CELESTE:
 
 ---------------------------------------------
 
-HEADER
+HEADER HOME
 
     <header>
         <div><span class="navTitle"><img id="logoHeader" src="../../../img/Logo.png"/></span></div>
@@ -18,7 +18,30 @@ HEADER
         </div>
     </header>
 
+HEADER CLIENTE
+
+    <header>
+        <div><span class="navTitle"><img id="logoHeader" src="../../../img/Logo.png"/></span></div>
+        <div class="linkContainer">
+            <p>Hola </p><p>(Nombre aqui)</p><p>!</p>
+            <a style="margin-left: 10vw; background-color: white; color:#e77e21; border-radius: 15px; padding: 1vh 2vw;" href="index.html">Salir</a>
+        </div>
+    </header>
 ------------------------------------------------
+
+FOOTER
+
+    <footer>
+        <span class="footerContainer">
+            <a href="https://www.masterclean.com.ar/" target="_blank">Ir a Master Clean</a>
+        </span>
+        <span>
+            <p>Sitio web creado por Nahuel Fedyszyn</p>
+        </span>
+    </footer>
+
+-------------------------------------------------    
+
 
 HOJAS DE ESTILOS
 
@@ -26,3 +49,5 @@ HOJAS DE ESTILOS
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+

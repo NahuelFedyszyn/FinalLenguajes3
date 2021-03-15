@@ -57,6 +57,12 @@ header div span{
     text-shadow: white 1px 1px 10px;
 }
 
+.linkContainer p{
+    display: inline;
+    color: white;
+    font-size: 2vw;
+}
+
 /*Todo el estilo para el body*/
 
 main{
@@ -252,7 +258,7 @@ form{
     margin-bottom: 5vh;
 }
 
-.inputContainer input{
+.inputContainer .myInput{
     display: block;
     margin:5vh auto;
     width: 25vw;
@@ -293,12 +299,12 @@ form{
     border:none;
 }
 
-.inputContainer input:hover{
+.inputContainer .myInput:hover{
     box-shadow: #8fd0d8 1px 1px 10px 10px;
     border:none;
 }
 
-.inputContainer input:focus{
+.inputContainer .myInput:focus{
     box-shadow: #8fd0d8 1px 1px 10px 10px;
     border:none;
 }
@@ -308,6 +314,24 @@ form{
     padding:0 ;
     display: inline;
     width: 8vw;
+    box-shadow: none;
+}
+
+.radioForm{
+    margin: 0;
+    padding:0 ;
+    display: inline;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 10px;
+    transition:  0.3s;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    box-shadow: none;
+    background-color: #e77e21;
+}
+
+.radioForm:hover{
     box-shadow: none;
 }
 
@@ -340,6 +364,11 @@ form{
     margin-left: 10vh;
 }
 
+.formBtn{
+    margin: 0 auto;
+    background-color: grey;
+}
+
 /* Regiones */
 
 .imgRegion{
@@ -353,4 +382,49 @@ form{
 .imgRegion:hover{
     transform: scale(1.25);
     box-shadow: 1px 1px 20px grey;
+}
+
+/* Servicios */
+.infoServicios{
+    background-color: #e77e21;
+    color:white;
+    height: 65vh;
+    position: relative;
+}
+
+.infoServiciosTitulo{
+    font-size: 6vh;
+    text-align: center;
+    text-shadow: #8fd0d8 0px 0px 20px ;
+}
+
+.infoServiciosText{
+    font-size: 2.5vh;
+    text-align: center;
+    margin:auto 1vw;
+    text-shadow: #8fd0d8 0px 0px 20px ;
+}
+
+.infoServiciosSub{
+    position: absolute;
+    bottom: 0;
+
+    font-size: 2vh;
+    margin: auto 1vw;
+    margin-bottom: 2vh;
+    font-style: italic;
+}
+
+/* Confirmacion */
+.confirmacionSection{
+    display: flex;
+}
+
+.confirmacionContainer{
+    width: 40vw;
+    display: inline-block;
+}
+
+.confiramcionBtn{
+    margin: auto;
 }

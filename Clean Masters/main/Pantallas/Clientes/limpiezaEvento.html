@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <div><span class="navTitle"><img id="logoHeader" src="../../../img/Logo.png"/></span></div>
+        <div class="linkContainer">
+            <p>Hola </p><p>(Nombre aqui)</p><p>!</p>
+            <a style="margin-left: 10vw; background-color: white; color:#e77e21; border-radius: 15px; padding: 1vh 2vw;" href="index.html">Salir</a>
+        </div>
+    </header>
+
+    <section>
+        <p class="mainTitle">Limpieza de Evento</p>
+        <p class="subTitle">¡Somos el mejor amigo del anfitrion!</p>
+    </section>
+    <section>
+        <p class="subTitle">Por favor completa el siguiente formulario para solicitar el servicio</p>
+        <form class="loginForm">
+            <p class="mainTitle" style="text-align: center;">Solicitud de Servicio</p>
+            <div class="inputContainer">
+                <input type="text" class="myInput" placeholder="Domicilio del evento" required >
+                <p class="text">Region <a style="color: darkorange;" href="regionInfo.html" target="_blank">(¿Como saber cual es mi region?)</a></p>
+                <select id="regionBox" aria-placeholder="Region">
+                    <option value="1">Centro</option>
+                    <option value="2">Norte</option>
+                    <option value="3">Sur</option>
+                    <option value="4">Este</option>
+                    <option value="5">Oeste</option>
+                </select>
+                <p class="text">Cantidad de invitados</p>
+                <span><input type="radio" name="invitados"  class="radioForm" placeholder="Soy Empresa" required checked><label> Menos de 10</label></span>
+                <span><input type="radio" name="invitados"  class="radioForm" placeholder="Soy Empresa" required><label> De 10 a 50</label></span>
+                <span><input type="radio" name="invitados"  class="radioForm" placeholder="Soy Empresa" required><label> De 51 a 100</label></span>
+                <span><input type="radio" name="invitados"  class="radioForm" placeholder="Soy Empresa" required><label> Mas de 100</label></span>
+                <p class="text">Horario del evento<p>
+                <span><input type="radio" name="horario"  class="radioForm" placeholder="Soy Empresa" required checked><label> Entre las 6:00 y las 16:00</label></span>
+                <span><input type="radio" name="horario"  class="radioForm" placeholder="Soy Empresa" required><label> Entre las 16:00 y las 20:00</label></span>
+                <span><input type="radio" name="horario"  class="radioForm" placeholder="Soy Empresa" required><label> Entre las 20:00 y las 4:00 del dia siguiente</label></span>
+                <p class="text">Tamaño del Salon<p>
+                <span><input type="radio" name="tamaño"  class="radioForm" placeholder="Soy Empresa" required checked><label> Menos de 100 metros cuadrados</label></span>
+                <span><input type="radio" name="tamaño"  class="radioForm" placeholder="Soy Empresa" required><label> Entre 100 y 300 metros cuadrados</label></span>
+                <span><input type="radio" name="tamaño"  class="radioForm" placeholder="Soy Empresa" required><label> Mas de 300 metros cuadrados</label></span>
+                <input type="number" class="myInput" style="font-size: 1vw;" placeholder="Telefono de contacto (sin 0 y sin 15)" required >
+                <p class="text">Dia del evento<p>
+                <input type="date" class="myInput" required>
+                <button class="homeBtn">Generar Solicitud</button>
+            </div>
+        </form>
+        <br>
+        <a class="formBtn homeBtn" href="servicios.html">Volver</a>
+
+    </section>
+
+</body>
+</html>

@@ -24,12 +24,12 @@
                 <p class="mainTitle" style="text-align: center; font-size: 5vh;">¡Bienvenido!</p>
                 <p class="mainTitle" style="text-align: center;">Registra tus datos para crear una cuenta</p>
                 <div class="inputContainer">
-                    <input type="email" id="email" placeholder="Correo Electronico" required>                    
-                    <input type="password" id="contraseña" placeholder="Contraseña" required>
-                    <input type="text" id="nombre" placeholder="Nombre" required>
-                    <span><input type="checkbox"  id="checkEmpresa" placeholder="Soy Empresa" required><label> Soy empresa</label></span>
-                    <input type="text" id="apellido" placeholder="Apellido" required>
-                    <input type="number" id="cuit" placeholder="CUIT" required > 
+                    <input type="email" class="myInput" id="email" placeholder="Correo Electronico" required>                    
+                    <input type="password" class="myInput" id="contraseña" placeholder="Contraseña" required>
+                    <input type="text" class="myInput" id="nombre" placeholder="Nombre" required>
+                    <span><input type="checkbox" class="myInput"  id="checkEmpresa" placeholder="Soy Empresa" required><label> Soy empresa</label></span>
+                    <input type="text" class="myInput" id="apellido" placeholder="Apellido" required>
+                    <input type="number" class="myInput" id="cuit" placeholder="CUIT" required > 
                     <p class="text">Region <a style="color: darkorange;" href="regionInfo.html" target="_blank">(¿Como saber cual es mi region?)</a></p>
                     <select id="regionBox" aria-placeholder="Region">
                         <option value="1">Centro</option>
@@ -38,7 +38,7 @@
                         <option value="4">Este</option>
                         <option value="5">Oeste</option>
                     </select>
-                    <input type="text" placeholder="Domicilio" id="domicilio" required>
+                    <input type="text" class="myInput" placeholder="Domicilio" id="domicilio" required>
                     <button class="homeBtn">Crear Cuenta</button>
                 </div>
             </form>
