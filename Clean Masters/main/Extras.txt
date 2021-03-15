@@ -1,0 +1,28 @@
+COLORES:
+NARANJA:
+#e77e21
+
+CELESTE:
+#8fd0d8
+
+---------------------------------------------
+
+HEADER
+
+    <header>
+        <div><span class="navTitle"><img id="logoHeader" src="../../../img/Logo.png"/></span></div>
+        <div class="linkContainer">
+            <a href="index.html">HOME</a>
+            <a href="serviciosForm.html">SERVICIOS</a>
+            <a href="../Empleados/empleadosForm.html">ACCESO EMPELADOS</a>
+        </div>
+    </header>
+
+------------------------------------------------
+
+HOJAS DE ESTILOS
+
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">

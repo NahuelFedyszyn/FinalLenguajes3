@@ -134,12 +134,12 @@ section{
 }
 
 #infoChild2{
-    background-image: url("/img/organizacion.png");
+    background-image: url("../img/organizacion.png");
     background-size: cover;
     background-color: #8fd0d8;
 }
 #infoChild3{
-    background-image: url("/img/masterClean.jpg");
+    background-image: url("../img/masterClean.jpg");
     background-size: cover;
 }
 
@@ -171,6 +171,11 @@ section{
     transition: 0.4s;
     border-radius: 10px;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px black solid;
+    
 }
 
 .homeBtn:hover{
@@ -188,6 +193,8 @@ footer{
     height: 9vh;
     width: 100vw;
     font-size: 3vh;
+    position: relative;
+    bottom: 0;
 }
 
 .footerContainer{
@@ -207,4 +214,143 @@ footer{
 footer p{
     text-align: right;
     font-size: 2vh;
+}
+
+/* Estilos para los formularios */
+
+form{
+    width:60vw;
+    margin:auto;
+    padding: 1vh 0;
+    box-shadow: 1px 1px 20px 2px black;
+    border-radius: 15px;
+}
+
+.crearCuenta{
+    color: #e77e21;
+    transition: 0.3s;
+}
+
+.crearCuenta:hover{
+    text-shadow: #e77e21 0px 0px 5px;
+}
+
+.olvideContraseña{
+    color:#e77e21;
+    transition: 0.3s;
+}
+
+.olvideContraseña:hover{
+    text-shadow: #e77e21 0px 0px 5px;
+}
+
+.loginForm .mainTitle{
+    font-size: 2vw;
+}
+
+.inputContainer{
+    margin-bottom: 5vh;
+}
+
+.inputContainer input{
+    display: block;
+    margin:5vh auto;
+    width: 25vw;
+    height: 5vh;
+    padding-left: 2vh;
+    font-size: 3vh;
+    font-family: 'Varela Round', sans-serif;
+    border:none;
+    transition: 0.3s;
+    box-shadow: #8fd0d8 1px 1px 5px;
+}
+
+.inputContainer p{
+    text-align: center;
+}
+
+.inputContainer select{
+    display: block;
+    margin:5vh auto;
+    width: 26.5vw;
+    height: 6vh;
+    padding-left: 2vh;
+    font-size: 3vh;
+    font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
+    border:none;
+    box-shadow: #8fd0d8 1px 1px 5px;
+    transition: 0.3s;
+}
+
+.inputContainer select:hover{
+    box-shadow: #8fd0d8 1px 1px 10px 10px;
+    border:none;
+}
+
+.inputContainer select:focus{
+    box-shadow: #8fd0d8 1px 1px 10px 10px;
+    border:none;
+}
+
+.inputContainer input:hover{
+    box-shadow: #8fd0d8 1px 1px 10px 10px;
+    border:none;
+}
+
+.inputContainer input:focus{
+    box-shadow: #8fd0d8 1px 1px 10px 10px;
+    border:none;
+}
+
+#checkEmpresa{
+    margin: 0;
+    padding:0 ;
+    display: inline;
+    width: 8vw;
+    box-shadow: none;
+}
+
+.inputContainer label{
+    
+    font-size: 3vh;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+    padding: 0;
+    text-align: left;
+    transition: 0.3s;
+    
+}
+
+.inputContainer span{
+    display: flex;
+    margin: auto;
+    margin-left: 14vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.inputContainer button{
+    margin:5vh auto;
+    width:20vw;
+    
+}
+
+.formInfo{
+    margin-left: 10vh;
+}
+
+/* Regiones */
+
+.imgRegion{
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px grey;
+    
+}
+
+.imgRegion:hover{
+    transform: scale(1.25);
+    box-shadow: 1px 1px 20px grey;
 }

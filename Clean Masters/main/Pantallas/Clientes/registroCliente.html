@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cliente</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <header>
+        <div><span class="navTitle"><img id="logoHeader" src="../../../img/Logo.png"/></span></div>
+        <div class="linkContainer">
+            <a href="index.html">HOME</a>
+            <a href="serviciosForm.html">SERVICIOS</a>
+            <a href="../Empleados/empleadosForm.html">ACCESO EMPELADOS</a>
+        </div>
+    </header>
+
+
+    <main>
+        <section style="margin-top: 15vh;">
+            <form class="loginForm">
+                <p class="mainTitle" style="text-align: center; font-size: 5vh;">¡Bienvenido!</p>
+                <p class="mainTitle" style="text-align: center;">Registra tus datos para crear una cuenta</p>
+                <div class="inputContainer">
+                    <input type="email" id="email" placeholder="Correo Electronico" required>                    
+                    <input type="password" id="contraseña" placeholder="Contraseña" required>
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+                    <span><input type="checkbox"  id="checkEmpresa" placeholder="Soy Empresa" required><label> Soy empresa</label></span>
+                    <input type="text" id="apellido" placeholder="Apellido" required>
+                    <input type="number" id="cuit" placeholder="CUIT" required > 
+                    <p class="text">Region <a style="color: darkorange;" href="regionInfo.html" target="_blank">(¿Como saber cual es mi region?)</a></p>
+                    <select id="regionBox" aria-placeholder="Region">
+                        <option value="1">Centro</option>
+                        <option value="2">Norte</option>
+                        <option value="3">Sur</option>
+                        <option value="4">Este</option>
+                        <option value="5">Oeste</option>
+                    </select>
+                    <input type="text" placeholder="Domicilio" id="domicilio" required>
+                    <button class="homeBtn">Crear Cuenta</button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <span class="footerContainer">
+            <a href="https://www.masterclean.com.ar/" target="_blank">Ir a Master Clean</a>
+        </span>
+        <span>
+            <p>Sitio web creado por Nahuel Fedyszyn</p>
+        </span>
+    </footer>
+</body>
+</html>
