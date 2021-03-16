@@ -23,7 +23,8 @@ header{
     width: 100vw;
     height: 9vh;
     position: fixed;
-    top:0
+    top:0;
+    z-index: 5;
 }
 
 header div span{
@@ -61,6 +62,14 @@ header div span{
     display: inline;
     color: white;
     font-size: 2vw;
+}
+
+#headerSalir{
+    margin-left: 10vw; 
+    background-color: white; 
+    color:#e77e21; 
+    border-radius: 15px; 
+    padding: 1vh 2vw;
 }
 
 /*Todo el estilo para el body*/
@@ -367,6 +376,27 @@ form{
 .formBtn{
     margin: 0 auto;
     background-color: grey;
+}
+
+.horaContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horaContainer p{
+    margin: 0;
+}
+
+#hora{
+    width: 3.4vw;
+    margin: 1vw;
+    
+}
+
+#minutos{
+    width:3.8vw;
+    margin:1vw;
 }
 
 /* Regiones */
