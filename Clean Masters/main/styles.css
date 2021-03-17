@@ -458,3 +458,10 @@ form{
 .confiramcionBtn{
     margin: auto;
 }
+
+
+/*-------- EXTRAS --------*/
+
+#btnCancelar, #btnRecuperar{
+    margin-left: 20vw;
+}

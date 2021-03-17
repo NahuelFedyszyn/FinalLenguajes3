@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo registro</title>
+    <link rel="stylesheet" href="../../stylesEmpleados.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section>
+            <article class="articleEmpleados">
+                <p class="mainTitle">¡Bienvenido al registro de empleados!</p>
+                <p class="sub">A continuacion te presentamos la modalidad y los requisitos para un registro exitoso</p>
+            </article>
+        </section>
+        <section>
+            <article class="articleEmpleados">
+                <p class="sub">Para poder trabajar con nosotros, es necesario que cumplas una serie de requisitos:</p>
+                <p class="text">
+                    <ul>
+                        <li class="text">Tener mas de 18 años</li>
+                        <li class="text">Estar registrado como monotributista (cualquier categoria), y estar registrado en una de las siguientes actividades: Servicios de limpiezas de edificios, servicios de hogares privados que contratan servicio domestico</li>
+                        <li class="text">Contar con movilidad propia</li>
+                        <li class="text">Tener obra social</li>
+                        <li class="text">Poseer una cuenta de correo electronico</li>
+                        <li class="text">Poseer un celular</li>
+                        <li class="text">Poseer una caja de ahorro en pesos en cualquier banco argentino</li>
+                        <li class="text">Tener acceso a internet para utilizar el sistema de Clean Masters</li>
+                    </ul>
+                </p>
+                <p class="sub">La modalidad de trabajo es la siguiente:</p>
+                <p class="text">Una vez completes el registro en la presente pagina web, tus datos se enviaran a la empresa para que sean verificados. Si todo esta en orden, recibiras un correo electronico a la direccion que facilitaste en el registro, indicandote que has ingresado en la nomina y se te asignara una contraseña para que puedas acceder al sistema de empleados de Clean Masters (una vez dentro, podras cambiar la contraseña)</p>
+                <p class="text">Desde el sistema, se te notificara los pedidos de servicios a los que deberas concurrir, basados en la region que registraste. En caso de que decidas no aceptar un pedido, es de vital importancia que te comuniques con la empresa para que esta pueda enviar el pedido a otro empleado; el hecho de no realizar el pedido y no avisar por ningun medio a la empresa se considera una falta grave y provocara la eliminacion directa del empleado de la nomina. Se espera que los empleados de Clean Masters tengan un alto nivel de compromiso, por lo que si rechazas demasiados pedidos es posible que te quiten de la nomina de empleados y no tengas acceso a mas trabajos </p>
+                <p class="text">Junto a cada pedido en el sistema, se te indicara por cual sucursal debes pasar para poder retirar los elementos necesarios para que realices tu trabajo.</p>
+                <p class="text">Cada vez que te llegue un pedido se te indicara en el mismo toda la informacion que necesites para poder llegar al cliente, como asi tambien el monto de tu remuneracion por completar el servicio, lo cual incluye el gasto por el traslado teniendo en cuenta le region en la que se encuentra el cliente.</p>
+                <p class="text">Una vez finalizado el servicio, sera tu responsabilidad volver a pasar por la sucursal dentro de las siguientes 48hs para devolver las herramientas que se te fueron otorgadas para realizar tu trabajo. La no devolucion dentro del plazo sera considerada una falta grave, pudiendo incluso llegar a culminar con una denuncia si la empresa lo considera necesario</p>
+                <p class="text">El pago por tus servicios sera a traves de una transferencia bancaria al CBU que proporcionaste en el registro. Se te enviara el comprobante via correo electronico</p>
+            </article>
+        </section>
+
+        <section>
+            <form class="registroForm">
+                <p class="mainTitle">Registro</p>
+                <input type="text" class="myInput registroInput" name="" id="registroEmail" placeholder="Correo Electronico" required>
+                <input type="text" id="registroNombre" class="myInput registroInput" placeholder="Nombre" required>
+                <input type="text" id="registroApellido" class="myInput registroInput" placeholder="Apellido" required>
+                <input type="number" id="registroCBU" class="myInput registroInput" placeholder="CBU" required>
+                <input type="number" id="registroTelefono" class="myInput registroInput" placeholder="Telefono" required>
+                <p class="text">Region <a style="color: darkorange;" href="../Clientes/regionInfo.html" target="_blank">(¿Como saber cual es mi region?)</a></p>
+                <select id="regionBox" class="myInput registroInput" aria-placeholder="Region">
+                    <option value="1">Centro</option>
+                    <option value="2">Norte</option>
+                    <option value="3">Sur</option>
+                    <option value="4">Este</option>
+                    <option value="5">Oeste</option>
+                </select>
+                <p class="text">Fecha de nacimiento</p>
+                <input type="date" id="registroDate" class="myInput registroInput" required>
+                <button class="registroBtn">Enviar registro</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
