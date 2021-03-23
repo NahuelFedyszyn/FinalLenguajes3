@@ -73,7 +73,13 @@ section{
     align-items: center;
 }
 
+#registroFile{
+    size: 60;
+}
 
+#registroFile:hover{
+    box-shadow: none;
+}
 
 .loginForm{
     border-radius: 25px;
